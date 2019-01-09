@@ -1,0 +1,19 @@
+.circleBase {
+    border-radius: 50%;
+    /*behavior: url(PIE.htc); !* remove if you don't care about IE8 *!*/
+}
+.userImg{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-position: 50% 50%;
+    background-size: cover;
+    border-radius: 50%;
+    background-image: url('../images/DSC_0228.JPG');
+}
+.type3 {
+    width: 250px;
+    height: 250px;
+    /*background: red;*/
+    border: 20px #d3d3d3;
+}
