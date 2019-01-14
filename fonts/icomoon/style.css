@@ -48,6 +48,7 @@
 .icon-mail:before {
   content: "\e9a2";
   font-size:16px;
+  color: #495057 !important;
 }
 .icon-map2:before {
   content: "\e9a3";
@@ -91,6 +92,7 @@
 .icon-linkedin2:before {
   content: "\f0e1";
   font-size:16px;
+  color: #495057 !important;
 }
 .icon-apple:before {
   content: "\f179";
