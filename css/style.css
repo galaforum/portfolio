@@ -91,6 +91,8 @@ a:hover, a:active, a:focus { text-decoration: none; outline: none; }
 
 .templateux-portfolio-overlap { position: relative; margin-top: 0px; }
 
+.templateux-portfolio-overlap-project { position: relative; margin-top: -150px;}
+
 @media (max-width: 991.98px) { .templateux-portfolio-overlap { margin-top: -50px; } }
 
 .container-fluid { padding-left: 50px; padding-right: 50px; max-width: 1600px; }
