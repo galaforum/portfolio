@@ -22,3 +22,18 @@
     column-gap: 20px;
     padding-bottom:10px;
 }
+.introFontSize{
+    font-size: 18px;
+    line-height: 40px;
+}
+
+.homeHeader{
+    /*position: relative;*/
+    top: -10px;
+    z-index: 9999;
+    font-size: 25px;
+    color: #707070;
+    margin-top: -70px;
+    margin-left: 100px;
+    padding-bottom: 30px;
+}

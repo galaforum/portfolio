@@ -311,7 +311,7 @@ a {
 		background: $primary;
 		width: 100%;
 		left: 0;
-		transition: .3s all ease-out;
+		//transition: .3s all ease-out;
 	}
 	.cta-inner {
 		// position: relative;
@@ -320,14 +320,14 @@ a {
 		display: block;
 		text-align: center;
 	}
-	span {
-		display: block;
-		position: absolute;
-		left: 50%;
-		top: 50%;
-		transform: translate(-50%, -50%);
-		transition: .3s all ease;
-	}
+	//span {
+	//	display: block;
+	//	position: absolute;
+	//	left: 50%;
+	//	top: 50%;
+	//	transform: translate(-50%, -50%);
+	//	transition: .3s all ease;
+	//}
 	.words-1 {
 		opacity: 1;
 		visibility: visible;
@@ -351,18 +351,18 @@ a {
 		&:before {
 			height: 100%;
 		}
-		.words-1 {
-			opacity: 0;
-			visibility: hidden;
-			top: -40px;
-			// color: $white;
-		}
-		.words-2 {
-			opacity: 1;
-			visibility: visible;
-			top: 0px;
-			color: $white;
-		}
+		//.words-1 {
+		//	opacity: 0;
+		//	visibility: hidden;
+		//	top: -40px;
+		//	// color: $white;
+		//}
+		//.words-2 {
+		//	opacity: 1;
+		//	visibility: visible;
+		//	top: 0px;
+		//	color: $white;
+		//}
 	}
 }
 .section-heading {

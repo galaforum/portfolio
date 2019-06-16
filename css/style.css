@@ -81,9 +81,9 @@ a:hover, a:active, a:focus { text-decoration: none; outline: none; }
 
 .templateux-hero.overlay .lead { color: #fff; opacity: .5; }
 
-.templateux-hero, .intro { height: 90vh; min-height: 400px; }
+.templateux-hero, .intro { height: 80vh; min-height: 400px; }
 
-.templateux-hero-project { height: 90vh; max-height: 500px; }
+.templateux-hero-project { height: 90vh; max-height: 200px; }
 
 .templateux-hero h1, .intro h1 { color: #000; font-size: 70px; }
 
@@ -91,7 +91,7 @@ a:hover, a:active, a:focus { text-decoration: none; outline: none; }
 
 .templateux-portfolio-overlap { position: relative; margin-top: 0px; }
 
-.templateux-portfolio-overlap-project { position: relative; margin-top: -150px;}
+.templateux-portfolio-overlap-project { position: relative; margin-top: -200px;}
 
 @media (max-width: 991.98px) { .templateux-portfolio-overlap { margin-top: -50px; } }
 
@@ -161,7 +161,7 @@ a:hover, a:active, a:focus { text-decoration: none; outline: none; }
 
 .templateux-footer .footer-social a { color: #b3b3b3; position: relative; -webkit-transition: .3s all ease; -o-transition: .3s all ease; transition: .3s all ease; font-size: 26px; }
 
-.templateux-footer .footer-social a:hover, .templateux-footer .footer-social a:focus { color: #dc3545; -webkit-transform: scale(1.7); -ms-transform: scale(1.7); transform: scale(1.7); }
+/*.templateux-footer .footer-social a:hover, .templateux-footer .footer-social a:focus { color: #dc3545; -webkit-transform: scale(1.7); -ms-transform: scale(1.7); transform: scale(1.7); }*/
 
 .btn:hover, .btn:focus, .btn:active { outline: none; -webkit-box-shadow: none !important; box-shadow: none !important; }
 
