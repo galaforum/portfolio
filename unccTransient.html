@@ -10,6 +10,10 @@
     <link rel="stylesheet" href="fonts/icomoon/style.css">
     <link rel="stylesheet" href="css/animsition.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel=”stylesheet” href=”https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<!--    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">-->
+<!--    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>-->
+<!--    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>-->
 
 
     <link rel="stylesheet" href="css/style.css">
@@ -43,24 +47,29 @@
         <div class="container" data-aos="fade-up">
             <div class="row justify-content-center">
                 <div class="col-md-10">
-                    <div class="row work-detail">
-                        <div class="col-md-4 ">
-                            <span class=caption>Role</span>
-                            <strong>UX Research and UI Design</strong>
-                        </div>
-                        <div class="col-md-4">
-                            <span class=caption>Team Size</span>
-                            <strong>4</strong>
-                        </div>
-                    </div>
+                    <table class="project-detail-table">
+                        <tr class="project-detail-table-row">
+                            <td class="project-detail-heading">Role</td>
+                            <td class="project-detail">UX Research and UI Design</td>
+                        </tr>
+                        <tr>
+                            <td class="project-detail-heading">Team Size and Duration</td>
+                            <td class="project-detail">4, 4 months</td>
+                        </tr>
+                        <tr>
+                            <td class="project-detail-heading">Tools</td>
+                            <td class="project-detail">Adobe XD</td>
+                        </tr>
+                    </table>
 
+                    <h3>Background</h3>
                     <div class="row text-justify">
                         <div class="col-md-12 twoColumnStyle">
-                            UNCC transient is a dashboard interface for UNC Charlotte bus stops. We researched on how people needed more
-                            than a mobile application and found out that a dashboard interface to get bus updates at the bus stops would
-                            be a great alternative to alleviate people’s pains and boredom. UNCC Transient provides easy and accessible bus information
+                            UNCC transient is a dashboard interface for UNC Charlotte bus stops. It provides easy and accessible bus information
                             at UNCC bus stops and is also a source of entertainment at bus stops other than updating people with bus timings,
-                            route information and bus statistics.
+                            route information and bus statistics. We researched on how people needed more than a mobile application and found
+                            out that a dashboard interface to get bus updates at the bus stops would be a great alternative to alleviate
+                            people’s pains and boredom.
                         </div>
                         <!--            <p class="mb-5">UNCC transient is a dashboard interface for UNC Charlotte bus stops. We researched on how people needed more than a mobile application and found out that a dashboard interface to get bus updates at the bus stops would be a great</p>-->
                         <!--              </div>-->
@@ -97,25 +106,136 @@
                     </div>
                     <br>
                     <h3>User Personas</h3>
-                    <div class="row md-12 justify-content-center text-justify">
-                        <br>
-                        <div class="col-sm-2 text-center">
-                            <br><img src="images/boyPersona.svg" alt="User persona" class="img-fluid"><br>
-                            Peter<br>
-                            College Student
-                            <p></p>
-                        </div>
-                        <div class="col-md-4">
-                            <h5>Motivations</h5>
-                            <p>Peter is an architecture student and has to carry a lot of designing material everyday. He loves to walk but does not like walking just before the class to avoid fatigue. His hobbies include soccer, photography and watching television shows.</p>
-                        </div>
-                        <div class="col-md-6">
-                            <h5>Goals</h5>
-                            <p>Peter has just reached the campus and wants to take the bus to his department. He likes to reach class on time. He wishes to find out the most feasible bus route and the time in which the next bus would arrive.</p>
-                            <h5>Frustrations</h5>
-                            <p>Peter does not know how long it will take for the bus to come. There is no one at the bus stop and he does not know which bus to take.</p>
-                        </div>
+
+                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" >
+                        <ol class="carousel-indicators">
+                            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="row md-12 justify-content-center text-justify">
+                                    <br>
+                                    <div class="col-sm-2 text-center">
+                                        <br><img src="images/boyPersona.svg" alt="User persona" class="img-fluid"><br>
+                                        Peter<br>
+                                        <span class="persona-subheading">College Student</span>
+                                        <p></p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <h5>Motivations</h5>
+                                        <p>Peter is an architecture student and has to carry a lot of designing material everyday. He
+                                            loves to walk but does not like walking just before the class to avoid fatigue. His hobbies
+                                            include soccer, photography and watching television shows.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <h5>Goals</h5>
+                                        <p>Peter has just reached the campus and wants to take the bus to his department. He
+                                            likes to reach class on time. He wishes to find out the most feasible bus route and
+                                            the time after which the next bus would arrive.
+                                        </p>
+                                        <h5>Frustrations</h5>
+                                        <p>Peter does not know how long it will take for the bus to come. There is no one at the
+                                            bus stop and he does not know which bus to take.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row md-12 justify-content-center text-justify">
+                                    <br>
+                                    <div class="col-sm-2 text-center">
+                                        <br><img src="images/driverPersona.svg" alt="User persona" class="img-fluid"><br>
+                                        William<br>
+                                        <span class="persona-subheading">Bus Driver</span>
+                                        <p></p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <h5>Motivations</h5>
+                                        <p>William works as a bus driver for UNCC buses. He has been driving
+                                            the buses for 10 years, and he loves his job. William is married and has
+                                            3 children. His hobbies include gardening and building model trains. William lives a bit away
+                                            from campus and drives to work each day.</p>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <h5>Goals</h5>
+                                        <p>William has arrived on his shift at time and logs in and gets settled on the bus in no
+                                            time. All the people who got on the bus were very cooperative. His shift ended on time
+                                            because the next driver on duty reached the bus stop before time.
+                                        </p>
+                                        <h5>Frustrations</h5>
+                                        <p>William's schedule got delayed due to initial login issues and traffic. This
+                                            frustrated the passengers. Also, he could not take his lunch break either as his driver replacement was late.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row md-12 justify-content-center text-justify">
+                                    <br>
+                                    <div class="col-sm-2 text-center">
+                                        <br><img src="images/girlPersona.svg" alt="User persona" class="img-fluid"><br>
+                                        Jane<br>
+                                        <span class="persona-subheading">College Student</span>
+                                        <p></p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <h5>Motivations</h5>
+                                        <p>Jane is an engineering student. She carries lots of books to carry everyday so
+                                            she takes the bus instead of walking. She has an expensive laptop too so she prefers
+                                            the bus when it rains. She uses the bus tracking application
+                                            and has managed to deal with it.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <h5>Goals</h5>
+                                        <p>Jane wants to go to a building on the other side of the campus. She uses the
+                                            mobile application to track the bus and the bus arrives on time. The driver is friendly and she reaches the other building on time.
+
+                                        </p>
+                                        <h5>Frustrations</h5>
+                                        <p>
+                                            Jane is waiting for the bus which has been delayed and the mobile application has no updates about it. She is
+                                            getting late for class and is frustrated like other students waiting at the bus stop.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                            <div class="carousel-control-prev-icon glyphicon glyphicon-chevron-left carousel-arrow-color" aria-hidden="true">
+                                <img class="arrow-image-left" src="images/keyboard-right-arrow-button.svg">
+
+                            </div>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon glyphicon glyphicon-chevron-right carousel-arrow-color" aria-hidden="true">
+                                <img class="arrow-image-right" src="images/keyboard-right-arrow-button.svg">
+                            </span>
+                            <span class="sr-only">Next</span>
+                        </a>
                     </div>
+<!--                    <div class="row md-12 justify-content-center text-justify">-->
+<!--                        <br>-->
+<!--                    INITIAL PERSONA-->
+<!--                        <div class="col-sm-2 text-center">-->
+<!--                            <br><img src="images/boyPersona.svg" alt="User persona" class="img-fluid"><br>-->
+<!--                            Peter<br>-->
+<!--                            College Student-->
+<!--                            <p></p>-->
+<!--                        </div>-->
+<!--                        <div class="col-md-4">-->
+<!--                            <h5>Motivations</h5>-->
+<!--                            <p>Peter is an architecture student and has to carry a lot of designing material everyday. He loves to walk but does not like walking just before the class to avoid fatigue. His hobbies include soccer, photography and watching television shows.</p>-->
+<!--                        </div>-->
+<!--                        <div class="col-md-6">-->
+<!--                            <h5>Goals</h5>-->
+<!--                            <p>Peter has just reached the campus and wants to take the bus to his department. He likes to reach class on time. He wishes to find out the most feasible bus route and the time in which the next bus would arrive.</p>-->
+<!--                            <h5>Frustrations</h5>-->
+<!--                            <p>Peter does not know how long it will take for the bus to come. There is no one at the bus stop and he does not know which bus to take.</p>-->
+<!--                        </div>-->
+<!--                    </div>-->
                     <br>
                     <h3>User Storyboards</h3>
                     <div class="row text-justify">
@@ -169,7 +289,7 @@
                     <!--<p class="text-center mb-4"><img src="images/transient/design.png" alt="Image placeholder" class="img-fluid"></p>-->
                     <p class="text-center mb-4"><img src="images/transient/UNCCTransient.svg" alt="Image placeholder" class="img-fluid"></p>
                     <!--<p class="text-center"><a href="#" class="button button&#45;&#45;red">Visit Website</a></p>-->
-                </div>
+                </table>
             </div>
         </div>
     </section>
