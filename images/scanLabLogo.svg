@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="275" height="197.592" viewBox="0 0 275 197.592">
+  <defs>
+    <filter id="Path_64" x="68" y="0" width="139.306" height="139.31" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-color="#0cc78b" flood-opacity="0.941"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="ScanLab" x="68" y="47.081" width="139" height="50" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_32" x="0" y="144.592" width="275" height="53" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-3"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_82" data-name="Group 82" transform="translate(-350 -55.408)">
+    <g id="Group_77" data-name="Group 77" transform="translate(37 -100)">
+      <rect id="Rectangle_24" data-name="Rectangle 24" width="256.5" height="183.89" rx="5" transform="translate(322 157)" fill="rgba(14,20,28,0.87)" opacity="0.84"/>
+      <g id="camera_button" data-name="camera button" transform="translate(390 161.408)" opacity="0.94">
+        <g transform="matrix(1, 0, 0, 1, -77, -6)" filter="url(#Path_64)">
+          <path id="Path_64-2" data-name="Path 64" d="M60.653,0A60.655,60.655,0,1,1,0,60.655,60.654,60.654,0,0,1,60.653,0Z" transform="translate(77 6)" fill="rgba(12,199,219,0.56)"/>
+        </g>
+        <g id="_1camera" data-name="1camera" transform="translate(11.365 19.521)" opacity="0.93">
+          <g id="_1camera-2" data-name="1camera">
+            <path id="Path_68" data-name="Path 68" d="M102.477,92.04h-76.8c-5.729,0-10.375-5.135-10.375-11.468v-42.1C15.3,32.135,19.945,27,25.675,27h76.8c5.729,0,10.375,5.135,10.375,11.468v42.1C112.851,86.905,108.206,92.04,102.477,92.04Z" transform="translate(-15.3 -14.677)" fill="#fff" stroke="#13c7db" stroke-miterlimit="10" stroke-width="1"/>
+            <path id="Path_69" data-name="Path 69" d="M76.519,43.249h-40.3A4.506,4.506,0,0,1,31.8,38.627V24.421A4.506,4.506,0,0,1,36.223,19.8h40.3a4.506,4.506,0,0,1,4.423,4.621V38.627A4.506,4.506,0,0,1,76.519,43.249Z" transform="translate(-7.595 -19.8)" fill="#fff" stroke="#13c7db" stroke-miterlimit="10" stroke-width="1"/>
+            <ellipse id="Ellipse_21" data-name="Ellipse 21" cx="13.105" cy="14.548" rx="13.105" ry="14.548" transform="translate(35.671 29.439)" fill="none" stroke="#13c7db" stroke-miterlimit="10" stroke-width="1"/>
+            <ellipse id="Ellipse_22" data-name="Ellipse 22" cx="3.276" cy="3.423" rx="3.276" ry="3.423" transform="translate(78.222 21.737)" fill="none" stroke="#13c7db" stroke-miterlimit="10" stroke-width="1"/>
+            <rect id="Rectangle_23" data-name="Rectangle 23" width="55.695" height="14.548" transform="translate(20.495 13.179)" fill="#fff"/>
+          </g>
+        </g>
+      </g>
+      <g id="Group_76" data-name="Group 76" transform="translate(389.5 229.91)">
+        <g transform="matrix(1, 0, 0, 1, -76.5, -74.5)" filter="url(#ScanLab)">
+          <text id="ScanLab-2" data-name="ScanLab" transform="translate(78 77.08)" fill="#0cc7db" stroke="#0cc7db" stroke-width="1" font-size="30" font-family="Helvetica"><tspan x="0" y="0">ScanLab</tspan></text>
+        </g>
+      </g>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 350, 55.41)" filter="url(#Rectangle_32)">
+      <path id="Rectangle_32-2" data-name="Rectangle 32" d="M0,0H257a0,0,0,0,1,0,0V30a5,5,0,0,1-5,5H5a5,5,0,0,1-5-5V0A0,0,0,0,1,0,0Z" transform="translate(9 150.59)" fill="#fff"/>
+    </g>
+    <text id="ScanLab-3" data-name="ScanLab" transform="translate(459 229)" fill="#707070" font-size="16" font-family="Lato-Regular, Lato"><tspan x="0" y="0">ScanLab</tspan></text>
+  </g>
+</svg>

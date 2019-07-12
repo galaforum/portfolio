@@ -9,7 +9,7 @@
     background-position: 50% 50%;
     background-size: cover;
     border-radius: 50%;
-    background-image: url('../images/DSC_0228.JPG');
+    background-image: url('../images/profile-picture.jpg');
 }
 .type3 {
     width: 250px;
@@ -37,7 +37,16 @@
     margin-left: 100px;
     padding-bottom: 30px;
 }
-
+.homeFontLight {
+    font-family: 'Lato Light', sans-serif;
+    color:black;
+    line-height: 40px;
+    /*make line height 30px after more text is added*/
+}
+.homeFont {
+    font-family: 'Lato', sans-serif !important;
+    color:#303030 !important;
+}
 .carousel-control-prev-icon{
     height: 40px;
     width: 40px;
@@ -131,6 +140,9 @@
     padding-left:50px;
     /*font-weight: bold;*/
     color: black;
+}
+.project-hover-border {
+    border-radius: 5px;
 }
 /*.circle-left {*/
 /*    width: 50px;*/
