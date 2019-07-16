@@ -25,6 +25,6 @@
     <g transform="matrix(1, 0, 0, 1, 60, 57)" filter="url(#Rectangle_30)">
       <path id="Rectangle_30-2" data-name="Rectangle 30" d="M0,0H257a0,0,0,0,1,0,0V30a5,5,0,0,1-5,5H5a5,5,0,0,1-5-5V0A0,0,0,0,1,0,0Z" transform="translate(9 149)" fill="#fff"/>
     </g>
-    <text id="Trail_Scouts" data-name="Trail Scouts" transform="translate(159 229)" fill="#707070" font-size="16" font-family="Lato-Regular, Lato"><tspan x="0" y="0">Trail Scouts</tspan></text>
+    <text id="Trail_Scout" data-name="Trail Scout" transform="translate(161 229)" fill="#707070" font-size="16" font-family="Lato-Regular, Lato"><tspan x="0" y="0">Trail Scout</tspan></text>
   </g>
 </svg>
