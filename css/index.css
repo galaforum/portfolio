@@ -157,6 +157,38 @@
     text-align: center;
     padding-top: 30px;
 }
+.pInlineDisplay{
+    display:inline;
+    /*z-index: +1000;*/
+    /*position: relative;*/
+}
+.pInlineDisplay:hover{
+    /*z-index: +1000;*/
+    /*position: relative;*/
+}
+.pDesignFormat{
+    align-content: center;
+}
+.imgClass{
+    height:250px;
+    width: 200px;
+    padding: 10px 5px 5px 5px;
+}
+.imgClass:hover{
+    color: #424242;
+    -webkit-transition: all .3s ease-in;
+    -moz-transition: all .3s ease-in;
+    -ms-transition: all .3s ease-in;
+    -o-transition: all .3s ease-in;
+    transition: all .3s ease-in;
+    opacity: 1;
+    transform: scale(2.5);
+    -ms-transform: scale(2.5); /* IE 9 1.15*/
+    -webkit-transform: scale(2.5); /* Safari and Chrome */
+    z-index: +1000;
+    position: relative;
+
+}
 /*.circle-left {*/
 /*    width: 50px;*/
 /*    height: 50px;*/
