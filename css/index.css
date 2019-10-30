@@ -162,16 +162,17 @@
     /*z-index: +1000;*/
     /*position: relative;*/
 }
-.pInlineDisplay:hover{
-    /*z-index: +1000;*/
-    /*position: relative;*/
-}
-.pDesignFormat{
-    align-content: center;
+.divDesignFormat{
+    display:block;
 }
 .imgClass{
-    height:250px;
-    width: 200px;
+    width:23%;
+    height:auto;
+    /*border: 0.5px solid black;*/
+    outline: 5px solid transparent;
+    margin: 10px 5px 5px 5px;
+}
+.imgClass::after{
     padding: 10px 5px 5px 5px;
 }
 .imgClass:hover{
