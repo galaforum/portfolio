@@ -159,7 +159,7 @@
 }
 .pInlineDisplay{
     display:inline;
-    align-content: center;
+    /* align-content: center; */
     /*z-index: +1000;*/
     /*position: relative;*/
 }
