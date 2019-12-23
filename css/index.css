@@ -226,10 +226,21 @@
     z-index: +1000;
     position: relative;
 }
+.role{
+  padding:20px;
+  font-size:20px;
+}
 @media screen and (max-width:995px){
    .projectRow1{
     background:red;
     visibility: hidden;
     /* display:none; */
+  }
+  .userImg{
+    width:60px;
+    height:60px;
+  }
+  .role{
+    font-size: 14px;
   }
 }
