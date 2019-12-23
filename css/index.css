@@ -29,7 +29,7 @@
 
 .homeHeader{
     /*position: relative;*/
-    top: -10px;
+    /* top: -10px; */
     z-index: 9999;
     font-size: 25px;
     color: #707070;
@@ -226,17 +226,10 @@
     z-index: +1000;
     position: relative;
 }
-/* .imgClass3:hover{
-    color: #424242;
-    -webkit-transition: all .3s ease-in;
-    -moz-transition: all .3s ease-in;
-    -ms-transition: all .3s ease-in;
-    -o-transition: all .3s ease-in;
-    transition: all .3s ease-in;
-    opacity: 1;
-    transform: scale(1.5);
-    -ms-transform: scale(1.5); /* IE 9 1.15*/
-    -webkit-transform: scale(1.5); /* Safari and Chrome */
-    z-index: +1000;
-    position: relative;
-} */
+@media screen and (max-width:995px){
+   .projectRow1{
+    background:red;
+    visibility: hidden;
+    /* display:none; */
+  }
+}
