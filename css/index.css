@@ -230,7 +230,7 @@
   padding:20px;
   font-size:20px;
 }
-@media screen and (max-width:995px){
+@media screen and (max-width:991.98px){
    .projectRow1{
     background:red;
     visibility: hidden;
@@ -244,9 +244,12 @@
     font-size: 16px;
   }
   .site-logo{
-    width: 100px;
+    width: 200px;
   }
-  .hamburger{
+  .homeHeader{
+    margin-left: 20px;
+  }
+  .hamburger-box{
     display: none;
   }
 }
