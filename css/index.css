@@ -240,7 +240,7 @@
     width:80px;
     height:80px;
   }
-  .role .headerFont{
+  .role, .headerFont{
     font-size: 16px;
   }
   .site-logo{
@@ -250,6 +250,6 @@
     margin-left: 20px;
   }
   .hamburger-box{
-    display: none;
+    visibility: hidden;
   }
 }
