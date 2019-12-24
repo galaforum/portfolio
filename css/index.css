@@ -256,11 +256,11 @@
     visibility: hidden;
   }
 }
-@media screen and (max-width:750px){
+@media screen and (max-width:400px){
   .homeScreenPadding{
     padding-top:300px;
   }
-  /* .templateux-portfolio-overlap{
+  .templateux-portfolio-overlap{
     margin-top: 200px;
-  } */
+  }
 }
