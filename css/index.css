@@ -259,6 +259,8 @@
 @media screen and (max-width:750px){
   .homeScreenPadding{
     padding-top:300px;
-
+  }
+  .templateux-portfolio-overlap{
+    margin-top: 200px;
   }
 }
