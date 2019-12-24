@@ -231,7 +231,7 @@
   font-size:20px;
 }
 .homeScreenPadding{
-   padding-top:200px;
+   padding-top:150px;
 }
 @media screen and (max-width:991.98px){
    .projectRow1{
@@ -258,7 +258,7 @@
 }
 @media screen and (max-width:400px){
   .homeScreenPadding{
-    padding-top:300px;
+    padding-top:150px;
   }
   .templateux-portfolio-overlap{
     margin-top: 200px;
