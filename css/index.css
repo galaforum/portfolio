@@ -230,6 +230,9 @@
   padding:20px;
   font-size:20px;
 }
+.homeScreenPadding{
+   padding-top:200px;
+}
 @media screen and (max-width:991.98px){
    .projectRow1{
     background:red;
@@ -251,5 +254,11 @@
   }
   .hamburger-box{
     visibility: hidden;
+  }
+}
+@media screen and (max-width:750px){
+  .homeScreenPadding{
+    padding-top:300px;
+
   }
 }
