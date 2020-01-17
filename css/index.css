@@ -9,11 +9,11 @@
     background-position: 50% 50%;
     background-size: cover;
     border-radius: 50%;
-    background-image: url('../images/profile-picture.jpg');
+    background-image: url('../images/profile-picture.png');
 }
 .type3 {
-    width: 250px;
-    height: 250px;
+    width: 100px;
+    height: 100px;
     /*background: red;*/
     border: 20px #d3d3d3;
 }
@@ -24,7 +24,9 @@
 }
 .introFontSize{
     font-size: 18px;
-    line-height: 40px;
+    line-height: 33px;
+    color: #6c757d;
+    font-weight:1200;
 }
 
 .homeHeader{
@@ -33,14 +35,15 @@
     z-index: 9999;
     font-size: 25px;
     color: #707070;
-    margin-top: -70px;
-    margin-left: 100px;
+    margin-top: 250px;
+    margin-left: 125px;
     padding-bottom: 30px;
 }
 .homeFontLight {
     font-family: 'Lato Light', sans-serif;
     color:black;
-    line-height: 40px;
+    line-height: 35px;
+
     /*make line height 30px after more text is added*/
 }
 .homeFont {
@@ -227,11 +230,14 @@
     position: relative;
 }
 .role{
-  padding:20px;
-  font-size:20px;
+  /* padding:20px; */
+  font-size:40px;
 }
 .homeScreenPadding{
    padding-top:150px;
+}
+.homeScreenIntroPadding{
+   padding-top:10px;
 }
 @media screen and (max-width:991.98px){
    .projectRow1{
@@ -246,11 +252,14 @@
   .role, .headerFont{
     font-size: 16px;
   }
+  .textFont{
+    font-size: 18px;
+  }
   .site-logo{
     width: 200px;
   }
   .homeHeader{
-    margin-left: 20px;
+    margin-left: 30px;
   }
   .hamburger-box{
     visibility: hidden;
@@ -264,3 +273,15 @@
     margin-top: 200px;
   }
 }
+/* @media (prefers-color-scheme:dark){
+  body{
+    background-color: #1c1c1e;
+    color:#fefefe;
+  }
+  a{
+    color:#5fa9ee;
+  }
+  img{
+    filter:grayscale(20%);
+  }
+} */

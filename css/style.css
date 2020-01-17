@@ -83,7 +83,7 @@ a:hover, a:active, a:focus { text-decoration: none; outline: none; }
 
 .templateux-hero, .intro { height: 70vh; min-height: 400px; }
 
-.templateux-hero-home, .intro-home { height: 80vh; min-height: 400px; }
+.templateux-hero-home, .intro-home { height: 30vh; min-height: 300px; }
 
 .templateux-hero-project { height: 90vh; max-height: 200px; }
 
