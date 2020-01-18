@@ -265,6 +265,10 @@
     visibility: hidden;
   }
 }
+.indexStyle{
+  z-index:1000;
+}
+/* For Work section in phones */
 @media screen and (max-width:400px){
   .homeScreenPadding{
     padding-top:150px;
