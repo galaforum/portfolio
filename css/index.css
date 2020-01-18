@@ -234,7 +234,7 @@
   font-size:40px;
 }
 .homeScreenPadding{
-   padding-top:150px;
+   padding-top:250px;
 }
 .homeScreenIntroPadding{
    padding-top:10px;
@@ -264,9 +264,6 @@
   .hamburger-box{
     visibility: hidden;
   }
-}
-.indexStyle{
-  z-index:1000;
 }
 /* For Work section in phones */
 @media screen and (max-width:400px){

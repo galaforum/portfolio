@@ -16,21 +16,64 @@
 
     <link rel="stylesheet" href="css/style.css">
     <link href="css/index.css" rel="stylesheet">
-      <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
-      <script>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+
+      <!-- <script>
           $(function(){
-              $("#headerContent").load("projectHeader.html");
+              $("#headerContent").load("header.html");
           });
           $(function(){
               $("#footerContent").load("footer.html");
           });
 
-      </script>
+      </script> -->
   </head>
   <body>
     <!-- <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="HandheldFriendly" content="true"> -->
+
+    <header class="templateux-navbar" data-aos="fade-down">
+    <!--    <meta property="og:image" content="">-->
+    <!--    <meta property="og:description" content="Forum Gala Website">-->
+    <!--    <meta property="og:url" content="">-->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-155356640-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-155356640-1');
+    </script>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-3 col-3"><div class="site-logo"><a href="index.html" class="animsition-link homeFont headerFont">Forum Gala</a></div></div>
+                <div class="col-sm-9 col-9 text-right">
+
+                    <!-- <button class="hamburger hamburger-
+                    -spin toggle-menu ml-auto js-toggle-menu" type="button">
+                  <span class="hamburger-box">
+                    <span class="hamburger-inner"></span>
+                  </span>
+                    </button> -->
+
+                    <nav class="templateux-menu js-templateux-menu" role="navigation">
+                        <ul class="list-unstyled homeFont">
+                            <li class="d-md-none d-block active"><a href="index.html" class="animsition-link">Home</a></li>
+                            <li><a href="#work" >Work</a></li>
+                            <li><a id="resume" data-aos="fade-up" href="https://galaforum.github.io/portfolio/index.html" onclick="window.open('ForumGalaResume.pdf');return false;">
+                                Resume</a></li>
+                        </ul>
+                    </nav>
+
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="col-md-6 text-md-right text-center footer-social"></div>
+
 
   <div class="js-animsition animsition homeFont" data-animsition-in-class="fade-in" data-animsition-out-class="fade-out">
     <section class="templateux-hero-home">
